@@ -1,0 +1,102 @@
+# == 苹果服务 (Apple) ==
+# Apple CDN 加速
+DOMAIN-SUFFIX,cdn-apple.com
+# 苹果网络检测
+DOMAIN,captive.apple.com
+
+# == 腾讯系 (微信 / QQ / 腾讯地图) ==
+# 微信支付
+DOMAIN-SUFFIX,wechatpay.cn
+# 微信国内节点加速
+DOMAIN,szextshort.weixin.qq.com
+# 微信香港与海外节点
+DOMAIN,hkshort.weixin.qq.com
+DOMAIN,hklong.weixin.qq.com
+DOMAIN,hkextshort.weixin.qq.com
+DOMAIN,hkquic.weixin.qq.com
+# 微信 CDN 与静态资源 (头像、公众号图片、小程序资源)
+DOMAIN,wx.qlogo.cn
+DOMAIN,res.wx.qq.com
+DOMAIN-SUFFIX,mmbiz.qpic.cn
+DOMAIN,vweixinthumb.tc.qq.com
+# 腾讯地图
+DOMAIN,lbs.map.qq.com
+
+# == 阿里系 (淘宝 / 支付宝 / CDN / 数据分析) ==
+# 支付宝
+DOMAIN,amdc.alipay.com
+DOMAIN,collect.alipay.com
+DOMAIN-SUFFIX,alipay.hk
+# 淘宝
+DOMAIN,acs.m.taobao.com
+DOMAIN,amdc.m.taobao.com
+DOMAIN,guide-acs.m.taobao.com
+DOMAIN,trade-acs.m.taobao.com
+DOMAIN,audid-api.taobao.com
+DOMAIN,fourier.taobao.com
+# 阿里 CDN & 静态资源
+DOMAIN,asearch.alicdn.com
+DOMAIN,g.alicdn.com
+DOMAIN,hudong.alicdn.com
+DOMAIN,ilce.alicdn.com
+DOMAIN,ossgw.alicdn.com
+# 阿里数据统计 (mmstat)
+DOMAIN,gm.mmstat.com
+DOMAIN,d-gm.mmstat.com
+DOMAIN,log.mmstat.com
+DOMAIN,wgo.mmstat.com
+# 阿里妈妈广告联盟 (Tanx)
+DOMAIN,df.tanx.com
+DOMAIN,ifs.tanx.com
+
+# == 百度系 ==
+# 百度地图
+DOMAIN,loc.map.baidu.com
+DOMAIN,newvector.map.baidu.com
+
+# == 美团系 ==
+DOMAIN,appsec-mobile.meituan.com
+DOMAIN,api-unionid.meituan.com
+
+# == 其他国内常用 App ==
+# 12306
+DOMAIN,ad.12306.cn
+# 携程
+DOMAIN,m.ctrip.com
+# 微博
+DOMAIN,sdkapp.uve.weibo.com
+# 哔哩哔哩 (Bilibili)
+DOMAIN,grpc.biliapi.net
+# 瑞幸咖啡
+DOMAIN,capi.lkcoffee.com
+
+# == 银行与金融机构 ==
+# 中国银联 (云闪付)
+DOMAIN-SUFFIX,95516.com
+# 中国银行
+DOMAIN,openapi.boc.cn
+DOMAIN,mbs.boc.cn
+# 交通银行
+DOMAIN,creditcardapp.bankcomm.cn
+
+# == 系统基础服务 (网络检测 / NTP 时间 / 证书) ==
+# 微软服务 & 时间
+DOMAIN,api.appcenter.ms
+DOMAIN,client.wns.windows.com
+DOMAIN,time.windows.com
+DOMAIN,ntp.msn.com
+# 证书验证
+DOMAIN,ocsp2.globalsign.com
+DOMAIN,o.pki.goog
+# 火狐网络检测
+DOMAIN,detectportal.firefox.com
+# 开源 NTP 时间服务器
+DOMAIN-SUFFIX,pool.ntp.org
+
+# == 运营商与教育网 ==
+# 中国教育网
+DOMAIN-SUFFIX,edu.cn
+# 台湾大哥大
+DOMAIN-SUFFIX,taiwanmobile.com
+# Ultra Mobile (PayGo)
+DOMAIN-KEYWORD,ultramobile
