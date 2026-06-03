@@ -1,0 +1,84 @@
+# == 常用国际支付平台 ==
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,payoneer.com
+DOMAIN-SUFFIX,squareup.com
+
+# == 国际汇款与新兴数字银行 ==
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-SUFFIX,monzo.com
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,curve.com
+
+# == 传统跨国银行 (北美、欧洲等) ==
+DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,citibank.com
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,bofa.com
+DOMAIN-SUFFIX,wellsfargo.com
+DOMAIN-SUFFIX,capitalone.com
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbc.co.uk
+DOMAIN-SUFFIX,barclays.com
+DOMAIN-SUFFIX,barclays.co.uk
+DOMAIN-SUFFIX,standardchartered.com
+
+# == 信用卡发卡机构与网络 ==
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,amex.com
+DOMAIN-SUFFIX,aexp.com
+DOMAIN-SUFFIX,discover.com
+DOMAIN-SUFFIX,discovercard.com
+DOMAIN-SUFFIX,visa.com
+DOMAIN-SUFFIX,mastercard.com
+DOMAIN-SUFFIX,mastercard.us
+DOMAIN-SUFFIX,dinersclub.com
+
+# == 信用记录与征信机构 ==
+# 北美三大征信局
+DOMAIN-SUFFIX,equifax.com
+DOMAIN-SUFFIX,experian.com
+DOMAIN-SUFFIX,transunion.com
+# 常用信用分查询平台
+DOMAIN-SUFFIX,creditkarma.com
+DOMAIN-SUFFIX,myfico.com
+DOMAIN-SUFFIX,fico.com
+DOMAIN-SUFFIX,annualcreditreport.com
+DOMAIN-SUFFIX,clearscore.com
+DOMAIN-SUFFIX,creditchecktotal.com
+
+# == 国际券商与投资理财 ==
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,fidelity.com
+DOMAIN-SUFFIX,tdameritrade.com
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,interactivebrokers.com
+
+# == Intuit 及其旗下产品 (财务、税务、记账) ==
+DOMAIN-SUFFIX,intuit.com
+DOMAIN-SUFFIX,intuitcdn.net
+DOMAIN-SUFFIX,intuitecom.com
+DOMAIN-SUFFIX,turbotax.com
+DOMAIN-SUFFIX,quickbooks.com
+DOMAIN-SUFFIX,mint.com
+DOMAIN-KEYWORD,intuit
+
+# == 加密货币交易所 (按需开启) ==
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,okx.com
+
+# == 其他金融工具与通讯 ==
+# Priority Pass (PP卡) 相关
+DOMAIN,combine.urbanairship.com
+DOMAIN,api.te-collinson.com
+# 通讯服务
+DOMAIN-SUFFIX,textnow.com
