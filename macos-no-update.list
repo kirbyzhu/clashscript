@@ -1,0 +1,76 @@
+# =====================================================================
+# macOS Auto-Update Block List
+# Format     Clash / Mihomo rule-provider
+# Behavior   classical
+# Version    2026.06.04
+# Scope      阻断 macOS 系统更新相关核心域名
+# Note       默认不影响 App Store / iMessage / iCloud
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# 1. macOS 更新检测、元数据、推送
+# ---------------------------------------------------------------------
+
+# Apple 软件更新目录与元数据服务
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+
+# 软件更新查询
+DOMAIN,swquery.apple.com
+
+# 软件更新扫描
+DOMAIN,swscan.apple.com
+
+
+# ---------------------------------------------------------------------
+# 2. macOS 系统更新下载与分发
+# ---------------------------------------------------------------------
+
+# Apple 软件更新下载服务
+DOMAIN,swdownload.apple.com
+
+# Apple 软件更新分发服务
+DOMAIN,swdist.apple.com
+
+# Apple 软件更新 CDN
+DOMAIN,swcdn.apple.com
+
+
+# ---------------------------------------------------------------------
+# 3. softwareupdate 相关辅助服务
+# ---------------------------------------------------------------------
+
+# macOS 软件更新资产服务，部分版本会调用
+DOMAIN,suconfig.apple.com
+
+# Apple 软件更新服务，部分系统版本可能访问
+DOMAIN,softwareupdate.apple.com
+
+
+# ---------------------------------------------------------------------
+# 4. 可选增强项：需要更彻底阻断时再取消注释
+# ---------------------------------------------------------------------
+# 注意：
+# 以下条目可能影响 App Store 应用下载、系统恢复、设备识别、
+# iMessage / FaceTime / iCloud 相关体验。
+# 一般情况下不建议默认启用。
+
+# Internet Recovery / macOS 恢复模式
+# DOMAIN,osrecovery.apple.com
+
+# Apple 更新 CDN，可能影响 App Store 应用更新或下载
+# DOMAIN,updates.cdn-apple.com
+# DOMAIN,updates-http.cdn-apple.com
+
+# Apple 推送配置，可能影响 iMessage / FaceTime 设备识别
+# DOMAIN,xp.apple.com
+
+# Apple 资产下载，误伤范围较大，不建议默认启用
+# DOMAIN,appldnld.apple.com
+
+# Apple 资产缓存 / 软件资源，可能影响系统组件或应用资源
+# DOMAIN,appldnld.g.aaplimg.com
+
+# Apple CDN 通用域名，误伤范围较大，不建议启用
+# DOMAIN-SUFFIX,cdn-apple.com
+# DOMAIN-SUFFIX,aaplimg.com
