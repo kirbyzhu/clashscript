@@ -374,3 +374,40 @@ payload:
   - DOMAIN-SUFFIX,writesonic.com
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,c.ai
+
+# > Claude / Copilot additions merged from user config on 2026-06-04
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,anthropic.com.cdn.cloudflare.net
+  - DOMAIN,anthropic.auth0.com
+  - DOMAIN,anthropic-com.ghost.io
+  - DOMAIN,browser-intake-us5-datadoghq.com
+  - DOMAIN-KEYWORD,datadog
+  - DOMAIN-KEYWORD,sift
+  - IP-CIDR,160.79.104.0/21,no-resolve
+  - IP-CIDR6,2607:6bc0::/32,no-resolve
+  - IP-ASN,399358,no-resolve
+  - DOMAIN,th.bing.com
+  - DOMAIN,www.bingapis.com
+  - DOMAIN,sapphire.api.microsoftapp.net
+  - DOMAIN,prod.rewardsplatform.microsoft.com
+  - DOMAIN,c.clarity.ms
+  - DOMAIN,c.bing.com
+  - DOMAIN,www.clarity.ms
+  - DOMAIN,p.clarity.ms
+  - DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
+  - DOMAIN,shopping.bing-shopping.microsoft-falcon.io
+  - DOMAIN,cdn.jsdelivr.net
+  - DOMAIN,logincdn.msauth.net
+  - DOMAIN,account.live.com
+  - DOMAIN,acctcdn.msauth.net
+  - DOMAIN,substrate.office.com
+  - DOMAIN,ssl.bing.com
+  - DOMAIN,login.microsoftonline.com
+  - DOMAIN,gateway-copilot.bingviz.microsoftapp.net
+  - DOMAIN,analytics.adjust.com
+  - DOMAIN,mobile.events.data.microsoft.com
+  - DOMAIN,ocsp.digicert.com
+  - DOMAIN,graph.microsoft.com
