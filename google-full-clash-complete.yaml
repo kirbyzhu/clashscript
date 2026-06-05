@@ -1,119 +1,98 @@
-payload:
-  # Loyalsoldier/clash-rules google.txt
-  - DOMAIN-SUFFIX,265.com
-  - DOMAIN-SUFFIX,2mdn-cn.net
-  - DOMAIN-SUFFIX,2mdn.net
-  - DOMAIN-SUFFIX,admob-cn.com
-  - DOMAIN-SUFFIX,adservice.google.com
-  - DOMAIN-SUFFIX,app-analytics-services.com
-  - DOMAIN-SUFFIX,app-measurement-cn.com
-  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,apps5.oingo.com
-  - DOMAIN-SUFFIX,avail.googleflights.net
-  - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
-  - DOMAIN-SUFFIX,beacons.gvt2.com
-  - DOMAIN-SUFFIX,beacons2.gvt2.com
-  - DOMAIN-SUFFIX,beacons3.gvt2.com
-  - DOMAIN-SUFFIX,c.admob.com
-  - DOMAIN-SUFFIX,c.android.clients.google.com
-  - DOMAIN-SUFFIX,c.pki.goog
-  - DOMAIN-SUFFIX,cache-management-prod.google.com
-  - DOMAIN-SUFFIX,cache.pack.google.com
-  - DOMAIN-SUFFIX,checkin.gstatic.com
-  - DOMAIN-SUFFIX,clickserve.cc-dt.com
-  - DOMAIN-SUFFIX,clickserve.dartsearch.net
-  - DOMAIN-SUFFIX,clickserver.googleads.com
-  - DOMAIN-SUFFIX,clientservices.googleapis.com
-  - DOMAIN-SUFFIX,cn.widevine.com
-  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
-  - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
-  - DOMAIN-SUFFIX,crl.pki.goog
-  - DOMAIN-SUFFIX,csi.gstatic.com
-  - DOMAIN-SUFFIX,dartsearch-cn.net
-  - DOMAIN-SUFFIX,dg-meta.video.google.com
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,dl.l.google.com
-  - DOMAIN-SUFFIX,doubleclick-cn.net
-  - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,download.mlcc.google.com
-  - DOMAIN-SUFFIX,download.tensorflow.google.com
-  - DOMAIN-SUFFIX,firebase-settings.crashlytics.com
-  - DOMAIN-SUFFIX,fontfiles.googleapis.com
-  - DOMAIN-SUFFIX,fonts.googleapis.com
-  - DOMAIN-SUFFIX,fonts.gstatic.com
-  - DOMAIN-SUFFIX,g0.gstatic.com
-  - DOMAIN-SUFFIX,g1.gstatic.com
-  - DOMAIN-SUFFIX,g2.gstatic.com
-  - DOMAIN-SUFFIX,g3.gstatic.com
-  - DOMAIN-SUFFIX,gonglchuangl.net
-  - DOMAIN-SUFFIX,gongyichuangyi.net
-  - DOMAIN-SUFFIX,google-analytics-cn.com
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,googleadservices-cn.com
-  - DOMAIN-SUFFIX,googleadservices.com
-  - DOMAIN-SUFFIX,googleanalytics.com
-  - DOMAIN-SUFFIX,googleapis-cn.com
-  - DOMAIN-SUFFIX,googleapps-cn.com
-  - DOMAIN-SUFFIX,googleflights-cn.net
-  - DOMAIN-SUFFIX,googleoptimize-cn.com
-  - DOMAIN-SUFFIX,googleoptimize.com
-  - DOMAIN-SUFFIX,googlesyndication-cn.com
-  - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,googletagmanager-cn.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googletagservices-cn.com
-  - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,googletraveladservices-cn.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
-  - DOMAIN-SUFFIX,googlevads-cn.com
-  - DOMAIN-SUFFIX,gstatic-cn.com
-  - DOMAIN-SUFFIX,gstaticadssl.l.google.com
-  - DOMAIN-SUFFIX,gtm.oasisfeng.com
-  - DOMAIN-SUFFIX,gvt1-cn.com
-  - DOMAIN-SUFFIX,gvt2-cn.com
-  - DOMAIN-SUFFIX,imasdk.googleapis.com
-  - DOMAIN-SUFFIX,ocsp.pki.goog
-  - DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
-  - DOMAIN-SUFFIX,performanceparameters.googleapis.com
-  - DOMAIN-SUFFIX,pki-goog.l.google.com
-  - DOMAIN-SUFFIX,prod-controlbe.floonet.goog
-  - DOMAIN-SUFFIX,prod-databe.floonet.goog
-  - DOMAIN-SUFFIX,prod.databe.floonet.goog
-  - DOMAIN-SUFFIX,qiao-cn.com
-  - DOMAIN-SUFFIX,qpx.googleflights.net
-  - DOMAIN-SUFFIX,recaptcha-cn.net
-  - DOMAIN-SUFFIX,recaptcha.net
-  - DOMAIN-SUFFIX,redirector.bdn.dev
-  - DOMAIN-SUFFIX,redirector.c.chat.google.com
-  - DOMAIN-SUFFIX,redirector.c.mail.google.com
-  - DOMAIN-SUFFIX,redirector.c.pack.google.com
-  - DOMAIN-SUFFIX,redirector.c.play.google.com
-  - DOMAIN-SUFFIX,redirector.c.youtubeeducation.com
-  - DOMAIN-SUFFIX,redirector.gcpcdn.gvt1.com
-  - DOMAIN-SUFFIX,redirector.gvt1.com
-  - DOMAIN-SUFFIX,redirector.offline-maps.gvt1.com
-  - DOMAIN-SUFFIX,redirector.snap.gvt1.com
-  - DOMAIN-SUFFIX,redirector.xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,safebrowsing-cache.google.com
-  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,service.urchin.com
-  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-  - DOMAIN-SUFFIX,ssl.gstatic.com
-  - DOMAIN-SUFFIX,staging-controlbe.floonet.goog
-  - DOMAIN-SUFFIX,staging-databe.floonet.goog
-  - DOMAIN-SUFFIX,staging.databe.floonet.goog
-  - DOMAIN-SUFFIX,tac.googleapis.com
-  - DOMAIN-SUFFIX,tools.google.com
-  - DOMAIN-SUFFIX,update.crashlytics.com
-  - DOMAIN-SUFFIX,update.googleapis.com
-  - DOMAIN-SUFFIX,wear.googleapis.com
-  - DOMAIN-SUFFIX,www-google-analytics.l.google.com
-  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
-  - DOMAIN-SUFFIX,www.destinationurl.com
-  - DOMAIN-SUFFIX,www.gstatic.com
-  - DOMAIN-SUFFIX,www.pxcc.com
+# =============================================================================
+# Google 全量分流规则集 (Mihomo / Clash Meta - classical)
+# -----------------------------------------------------------------------------
+# 用途   : 作为 rule-provider behavior=classical 的外部规则文件
+# 聚合源 :
+#   - Loyalsoldier/v2ray-rules-dat (google.txt / gfw.txt)
+#   - blackmatrix7/ios_rule_script (Google / GoogleSearch / YouTube / GoogleAds /
+#                                   GoogleEarth / GoogleDoc / GoogleFCM /
+#                                   GoogleFonts / GoogleTranslate / GoogleVoice /
+#                                   GoogleDrive / GooglePlay / GoogleMaps /
+#                                   GoogleCN / Gemini / Bard 等)
+#   - ACL4SSR ProxyGFWlist (Google 段)
+#   - felixonmars/dnsmasq-china-list 反向 (排除已被国内 CDN 化的域)
+#   - Cats-Team/AdRules (Google Ads 段, 仅保留分流必要项)
+# 维护原则:
+#   1. 同一根域合并到 DOMAIN-SUFFIX，避免子域膨胀
+#   2. 极个别需精确命中的接口使用 DOMAIN
+#   3. DOMAIN-KEYWORD 仅在通配 SUFFIX 无法覆盖时使用 (容易误伤, 谨慎)
+#   4. 已被 Google 在大陆部署 CDN 的 *.cn 域 (如 *.googleapis-cn.com /
+#      *.gstatic-cn.com) 仍保留, 由用户自行决定是否走代理
+#   5. 类别分块带注释, 便于未来增量审计
+# =============================================================================
 
-  # Google core / AI additions
+payload:
+
+  # ===========================================================================
+  # 1. Google 顶层域 / 短链 / 品牌域
+  # ===========================================================================
+  - DOMAIN-SUFFIX,google
+  - DOMAIN-SUFFIX,goog
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-SUFFIX,google.org
+  - DOMAIN-SUFFIX,google.net
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gstatic-cn.com
+  - DOMAIN-SUFFIX,googlehosted.com
+  - DOMAIN-SUFFIX,googledomains.com
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,about.google
+  - DOMAIN-SUFFIX,blog.google
+  - DOMAIN-SUFFIX,store.google.com
+  - DOMAIN-SUFFIX,madeby.google.com
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,1e100.net
+  - DOMAIN-SUFFIX,1e100cdn.net
+  - DOMAIN-SUFFIX,abc.xyz                # Alphabet 母公司
+  - DOMAIN-SUFFIX,alphabet.com
+
+  # ===========================================================================
+  # 2. Google 账号 / OAuth / 安全 / 双因子
+  # ===========================================================================
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,accounts.youtube.com
+  - DOMAIN-SUFFIX,oauth2.googleapis.com
+  - DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+  - DOMAIN-SUFFIX,securetoken.googleapis.com
+  - DOMAIN-SUFFIX,identitytoolkit.googleapis.com
+  - DOMAIN-SUFFIX,passwordsleakcheck-pa.googleapis.com
+  - DOMAIN-SUFFIX,myaccount.google.com
+  - DOMAIN-SUFFIX,myactivity.google.com
+  - DOMAIN-SUFFIX,passport.google.com
+  - DOMAIN-SUFFIX,signin.aws.google.com
+  - DOMAIN-SUFFIX,security.google.com
+  - DOMAIN-SUFFIX,safety.google
+  - DOMAIN-SUFFIX,2fa.google.com
+
+  # ===========================================================================
+  # 3. Google 搜索主站 / Discover / Lens
+  # ===========================================================================
+  - DOMAIN-SUFFIX,search.google.com
+  - DOMAIN-SUFFIX,images.google.com
+  - DOMAIN-SUFFIX,lens.google.com
+  - DOMAIN-SUFFIX,lens.google
+  - DOMAIN-SUFFIX,discover.google.com
+  - DOMAIN-SUFFIX,trends.google.com
+  - DOMAIN-SUFFIX,trends.googleusercontent.com
+  - DOMAIN-SUFFIX,books.google.com
+  - DOMAIN-SUFFIX,books.googleusercontent.com
+  - DOMAIN-SUFFIX,scholar.google.com
+  - DOMAIN-SUFFIX,scholar.googleusercontent.com
+  - DOMAIN-SUFFIX,patents.google.com
+  - DOMAIN-SUFFIX,news.google.com
+  - DOMAIN-SUFFIX,googlenewsinitiative.com
+  - DOMAIN-SUFFIX,arts.google.com
+  - DOMAIN-SUFFIX,artsandculture.google.com
+  - DOMAIN-SUFFIX,sites.google.com
+  - DOMAIN-SUFFIX,googlesourcedwords.com
+
+  # ===========================================================================
+  # 4. Google AI - Gemini / AI Studio / NotebookLM / Antigravity / Labs
+  # ===========================================================================
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -127,138 +106,265 @@ payload:
   - DOMAIN,optimizationguide-pa.googleapis.com
   - DOMAIN,antigravity.google
   - DOMAIN,antigravity-unleash.goog
-  - DOMAIN-SUFFIX,google.com
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,goog
-  - DOMAIN-SUFFIX,google
-  - DOMAIN-SUFFIX,google.dev
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.google
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,bard.google
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,labs.google
+  - DOMAIN-SUFFIX,labs.google.com
+  - DOMAIN-SUFFIX,jules.google
+  - DOMAIN-SUFFIX,ai.google
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,generativeai.google.com
+  - DOMAIN-SUFFIX,googleai.com
+  - DOMAIN-SUFFIX,googleai.dev
+
+  # ===========================================================================
+  # 5. DeepMind / Google Research / X (Moonshot Factory)
+  # ===========================================================================
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,gemini.google
-  - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,labs.google
-  - DOMAIN-SUFFIX,jules.google
-  - DOMAIN-SUFFIX,notebooklm.google
-  - DOMAIN-SUFFIX,run.app
+  - DOMAIN-SUFFIX,research.google
+  - DOMAIN-SUFFIX,research.google.com
+  - DOMAIN-SUFFIX,x.company         # X Development LLC (登月工厂)
+  - DOMAIN-SUFFIX,projectzero.googleblog.com
+  - DOMAIN-SUFFIX,security.googleblog.com
+
+  # ===========================================================================
+  # 6. Colab / Kaggle / Jupyter / 数据科学
+  # ===========================================================================
+  - DOMAIN-SUFFIX,colab.research.google.com
+  - DOMAIN-SUFFIX,colab.google
+  - DOMAIN-SUFFIX,colab.googleusercontent.com
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,kaggle.io
+  - DOMAIN-SUFFIX,kaggleusercontent.com
   - DOMAIN-KEYWORD,colab
-  - DOMAIN-KEYWORD,developerprofiles
   - DOMAIN-KEYWORD,generativelanguage
+  - DOMAIN-KEYWORD,developerprofiles
 
-  # ================================
-  # Google / YouTube / AI 规则补充
-  # ================================
+  # ===========================================================================
+  # 7. Google Workspace - 邮件 / 文档 / 协作
+  # ===========================================================================
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,gsuite.google.com
+  - DOMAIN-SUFFIX,workspace.google.com
+  - DOMAIN-SUFFIX,workspace.google.cn  # 大陆官网, 选择性走代理
+  - DOMAIN-SUFFIX,admin.google.com
+  - DOMAIN-SUFFIX,mail.google.com
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,forms.google.com
+  - DOMAIN-SUFFIX,sheets.google.com
+  - DOMAIN-SUFFIX,slides.google.com
+  - DOMAIN-SUFFIX,sites.google.com
+  - DOMAIN-SUFFIX,meet.google.com
+  - DOMAIN-SUFFIX,chat.google.com
+  - DOMAIN-SUFFIX,currents.google.com
+  - DOMAIN-SUFFIX,jamboard.google.com
+  - DOMAIN-SUFFIX,calendar.google.com
+  - DOMAIN-SUFFIX,contacts.google.com
+  - DOMAIN-SUFFIX,keep.google.com
+  - DOMAIN-SUFFIX,tasks.google.com
+  - DOMAIN-SUFFIX,drawings.google.com
 
-  # > Google 基础与短链接
-  - DOMAIN-SUFFIX,g.co
-  - DOMAIN-SUFFIX,goo.gl
-  - DOMAIN-SUFFIX,1e100.net
-  - DOMAIN-SUFFIX,googlehosted.com
-  - DOMAIN-SUFFIX,googledomains.com
-  - DOMAIN-SUFFIX,withgoogle.com
-  - DOMAIN-SUFFIX,about.google
-  - DOMAIN-SUFFIX,blog.google
+  # ===========================================================================
+  # 8. Google Drive / Photos / 存储
+  # ===========================================================================
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,drive.googleapis.com
+  - DOMAIN-SUFFIX,docs.googleusercontent.com
+  - DOMAIN-SUFFIX,photos.google.com
+  - DOMAIN-SUFFIX,photos.googleapis.com
+  - DOMAIN-SUFFIX,photoslibrary.googleapis.com
+  - DOMAIN-SUFFIX,photos.app.goo.gl
+  - DOMAIN-SUFFIX,googleadapis.com
+  - DOMAIN-SUFFIX,storage.googleapis.com
+  - DOMAIN-SUFFIX,storage.cloud.google.com
 
-  # > Google 账号 / 登录 / 安全相关
-  - DOMAIN-SUFFIX,accounts.google.com
-  - DOMAIN-SUFFIX,oauth2.googleapis.com
-  - DOMAIN-SUFFIX,securetoken.googleapis.com
-  - DOMAIN-SUFFIX,identitytoolkit.googleapis.com
-  - DOMAIN-SUFFIX,signin.aws.google.com
+  # ===========================================================================
+  # 9. Google Maps / Earth / Street View / 地理服务
+  # ===========================================================================
+  - DOMAIN-SUFFIX,maps.google.com
+  - DOMAIN-SUFFIX,maps.googleapis.com
+  - DOMAIN-SUFFIX,mapsengine.google.com
+  - DOMAIN-SUFFIX,earth.google.com
+  - DOMAIN-SUFFIX,googleearth.com
+  - DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
+  - DOMAIN-SUFFIX,google.com.hk
+  - DOMAIN-SUFFIX,googlegeoapis.com
+  - DOMAIN-SUFFIX,waze.com           # Alphabet 旗下
+  - DOMAIN-SUFFIX,wazeopendata.com
 
-  # > Google Play / Android / 下载更新
+  # ===========================================================================
+  # 10. Google 翻译
+  # ===========================================================================
+  - DOMAIN-SUFFIX,translate.google.com
+  - DOMAIN-SUFFIX,translate.googleapis.com
+  - DOMAIN-SUFFIX,translate-pa.googleapis.com
+  - DOMAIN-SUFFIX,translate.googleapis-cn.com
+
+  # ===========================================================================
+  # 11. Google Pay / Wallet / Shopping / Travel
+  # ===========================================================================
+  - DOMAIN-SUFFIX,pay.google.com
+  - DOMAIN-SUFFIX,wallet.google.com
+  - DOMAIN-SUFFIX,paywithgoogle.com
+  - DOMAIN-SUFFIX,wallet.google
+  - DOMAIN-SUFFIX,shopping.google.com
+  - DOMAIN-SUFFIX,google.com/shopping
+  - DOMAIN-SUFFIX,googleflights.net
+  - DOMAIN-SUFFIX,googleflights-cn.net
+  - DOMAIN-SUFFIX,travel.google.com
+  - DOMAIN-SUFFIX,hotels.google.com
+
+  # ===========================================================================
+  # 12. YouTube 核心
+  # ===========================================================================
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,yt3.ggpht.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,wide-youtube.l.google.com
+  - DOMAIN-SUFFIX,withyoutube.com
+
+  # ===========================================================================
+  # 13. YouTube Music / TV / Studio / Premium
+  # ===========================================================================
+  - DOMAIN-SUFFIX,music.youtube.com
+  - DOMAIN-SUFFIX,tv.youtube.com
+  - DOMAIN-SUFFIX,studio.youtube.com
+  - DOMAIN-SUFFIX,creatoracademy.youtube.com
+  - DOMAIN-SUFFIX,artists.youtube.com
+  - DOMAIN-SUFFIX,blog.youtube
+  - DOMAIN-SUFFIX,creators.youtube
+  - DOMAIN-SUFFIX,vr.youtube.com
+
+  # ===========================================================================
+  # 14. Google Play / Android / Wear OS / 应用更新分发
+  # ===========================================================================
   - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,android.google.cn   # 部分元数据回源, 自行决定
   - DOMAIN-SUFFIX,androidify.com
   - DOMAIN-SUFFIX,androidifyresources.com
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,play.googleapis.com
   - DOMAIN-SUFFIX,play-fe.googleapis.com
   - DOMAIN-SUFFIX,play-lh.googleusercontent.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com    # Play Console 短链
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,gvt1-cn.com
+  - DOMAIN-SUFFIX,gvt2-cn.com
+  - DOMAIN-SUFFIX,wear.googleapis.com
+  - DOMAIN-SUFFIX,wearos.com
+  - DOMAIN-SUFFIX,wearables.google.com
 
-  # > Chrome / Chromium / Web 开发生态
+  # ===========================================================================
+  # 15. Chrome / Chromium / Web 平台
+  # ===========================================================================
   - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chrome.google.com
   - DOMAIN-SUFFIX,chromestatus.com
   - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,chromiumdash.appspot.com
+  - DOMAIN-SUFFIX,chromeexperiments.com
+  - DOMAIN-SUFFIX,chromeos.dev
+  - DOMAIN-SUFFIX,chromebook.com
   - DOMAIN-SUFFIX,web.dev
   - DOMAIN-SUFFIX,webpkgcache.com
   - DOMAIN-SUFFIX,pagespeed.web.dev
+  - DOMAIN-SUFFIX,measure.dev
 
-  # > YouTube 核心
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtubegaming.com
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,yt3.ggpht.com
-
-  # > Firebase / Google App Engine / Cloud 生态
+  # ===========================================================================
+  # 16. Firebase / Google Cloud Platform / App Engine / Functions
+  # ===========================================================================
+  - DOMAIN-SUFFIX,firebase.com
+  - DOMAIN-SUFFIX,firebase.google.com
   - DOMAIN-SUFFIX,firebaseapp.com
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com
+  - DOMAIN-SUFFIX,firebasestorage.googleapis.com
+  - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+  - DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
+  - DOMAIN-SUFFIX,fcmtoken.googleapis.com
+  - DOMAIN-SUFFIX,fcm.googleapis.com
+  - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,mtalk4.google.com
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,appspot-preview.com
   - DOMAIN-SUFFIX,cloudfunctions.net
-  - DOMAIN-SUFFIX,cloudproxy.app
   - DOMAIN-SUFFIX,cloud.google.com
+  - DOMAIN-SUFFIX,cloud.google
   - DOMAIN-SUFFIX,console.cloud.google.com
-  - DOMAIN-SUFFIX,storage.googleapis.com
-  - DOMAIN-SUFFIX,storage.cloud.google.com
+  - DOMAIN-SUFFIX,googleapis-cn.com
+  - DOMAIN-SUFFIX,googleapps-cn.com
+  - DOMAIN-SUFFIX,cloudproxy.app
+  - DOMAIN-SUFFIX,run.app                # Cloud Run
+  - DOMAIN-SUFFIX,a.run.app
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googleblog.com
+  - DOMAIN-SUFFIX,googlecode.com
+  - DOMAIN-SUFFIX,googledevelopers.com
+  - DOMAIN-SUFFIX,developers.google.com
 
-  # > Google AI / Gemini / AI Studio / Labs / Colab / NotebookLM
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,aistudio.google.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN-SUFFIX,notebooklm.google.com
-  - DOMAIN-SUFFIX,colab.research.google.com
-  - DOMAIN-SUFFIX,research.google
-  - DOMAIN-SUFFIX,ai.google
-  - DOMAIN-SUFFIX,ai.google.dev
-  - DOMAIN-SUFFIX,pa.googleapis.com
-  - DOMAIN-SUFFIX,clients6.google.com
+  # ===========================================================================
+  # 17. Google Ads / Analytics / Tag Manager / 广告分析
+  # ===========================================================================
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,doubleclick-cn.net
+  - DOMAIN-SUFFIX,2mdn.net
+  - DOMAIN-SUFFIX,2mdn-cn.net
+  - DOMAIN-SUFFIX,admob.com
+  - DOMAIN-SUFFIX,admob-cn.com
+  - DOMAIN-SUFFIX,adservice.google.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,google-analytics-cn.com
+  - DOMAIN-SUFFIX,googleanalytics.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleadservices-cn.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googlesyndication-cn.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googletagmanager-cn.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,googletagservices-cn.com
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN-SUFFIX,googletraveladservices-cn.com
+  - DOMAIN-SUFFIX,googleoptimize.com
+  - DOMAIN-SUFFIX,googleoptimize-cn.com
+  - DOMAIN-SUFFIX,googlevads-cn.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,app-measurement-cn.com
+  - DOMAIN-SUFFIX,app-analytics-services.com
+  - DOMAIN-SUFFIX,adsensecustomsearchads.com
+  - DOMAIN-SUFFIX,adwords.google.com
+  - DOMAIN-SUFFIX,ads.google.com
+  - DOMAIN-SUFFIX,marketingplatform.google.com
+  - DOMAIN-SUFFIX,partnerads.ysm.yahoo.com   # 历史交叉广告链路, 可删
+  - DOMAIN-SUFFIX,dartsearch.net
+  - DOMAIN-SUFFIX,dartsearch-cn.net
+  - DOMAIN-SUFFIX,265.com                # Google 收购的导航站
+  - DOMAIN-SUFFIX,clickserve.dartsearch.net
+  - DOMAIN-SUFFIX,clickserver.googleads.com
+  - DOMAIN-SUFFIX,imasdk.googleapis.com
 
-  # > Google Docs / Drive / Gmail / Meet / Chat / Calendar
-  - DOMAIN-SUFFIX,drive.google.com
-  - DOMAIN-SUFFIX,docs.google.com
-  - DOMAIN-SUFFIX,forms.google.com
-  - DOMAIN-SUFFIX,sheets.google.com
-  - DOMAIN-SUFFIX,slides.google.com
-  - DOMAIN-SUFFIX,mail.google.com
-  - DOMAIN-SUFFIX,gmail.com
-  - DOMAIN-SUFFIX,meet.google.com
-  - DOMAIN-SUFFIX,chat.google.com
-  - DOMAIN-SUFFIX,calendar.google.com
-  - DOMAIN-SUFFIX,contacts.google.com
-  - DOMAIN-SUFFIX,keep.google.com
-  - DOMAIN-SUFFIX,tasks.google.com
-
-  # > Google Maps / Earth / Travel
-  - DOMAIN-SUFFIX,maps.google.com
-  - DOMAIN-SUFFIX,maps.googleapis.com
-  - DOMAIN-SUFFIX,earth.google.com
-  - DOMAIN-SUFFIX,googleearth.com
-  - DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
-
-  # > Google 静态资源 / 图片 / 字体 / 头像
-  - DOMAIN-SUFFIX,lh3.googleusercontent.com
-  - DOMAIN-SUFFIX,lh4.googleusercontent.com
-  - DOMAIN-SUFFIX,lh5.googleusercontent.com
-  - DOMAIN-SUFFIX,lh6.googleusercontent.com
-  - DOMAIN-SUFFIX,photos.google.com
-  - DOMAIN-SUFFIX,photos.googleapis.com
-  - DOMAIN-SUFFIX,photoslibrary.googleapis.com
-
-  # > Blogger / Blogspot
+  # ===========================================================================
+  # 18. Blogger / Blogspot
+  # ===========================================================================
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,blogspot.com
   - DOMAIN-SUFFIX,blogspot.hk
@@ -268,20 +374,209 @@ payload:
   - DOMAIN-SUFFIX,blogspot.com.au
   - DOMAIN-SUFFIX,blogspot.com.br
   - DOMAIN-SUFFIX,blogspot.co.uk
+  - DOMAIN-SUFFIX,blogspot.ca
+  - DOMAIN-SUFFIX,blogspot.de
+  - DOMAIN-SUFFIX,blogspot.fr
+  - DOMAIN-SUFFIX,blogspot.in
+  - DOMAIN-SUFFIX,blogspot.it
+  - DOMAIN-SUFFIX,blogspot.kr
+  - DOMAIN-SUFFIX,blogspot.mx
+  - DOMAIN-SUFFIX,blogspot.nl
+  - DOMAIN-SUFFIX,blogspot.ru
 
-  # > Google 翻译
-  - DOMAIN-SUFFIX,translate.google.com
-  - DOMAIN-SUFFIX,translate.googleapis.com
-  - DOMAIN-SUFFIX,translate-pa.googleapis.com
-  - DOMAIN-SUFFIX,translate.googleapis-cn.com
+  # ===========================================================================
+  # 19. Google Fonts / Material Design / 设计资源
+  # ===========================================================================
+  - DOMAIN-SUFFIX,fonts.google.com
+  - DOMAIN-SUFFIX,fonts.googleapis.com
+  - DOMAIN-SUFFIX,fonts.gstatic.com
+  - DOMAIN-SUFFIX,fontfiles.googleapis.com
+  - DOMAIN-SUFFIX,material.io
+  - DOMAIN-SUFFIX,material.angular.io
+  - DOMAIN-SUFFIX,materialdesign.googleblog.com
+  - DOMAIN-SUFFIX,design.google
+  - DOMAIN-SUFFIX,design.google.com
 
-  # > Google Bard / Gemini 历史兼容
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,bard.google
-  - DOMAIN-SUFFIX,gemini.google
-  - DOMAIN-SUFFIX,generativeai.google
+  # ===========================================================================
+  # 20. reCAPTCHA / Safe Browsing / 安全验证
+  # ===========================================================================
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,recaptcha-cn.net
+  - DOMAIN-SUFFIX,recaptchaenterprise.googleapis.com
+  - DOMAIN-SUFFIX,safebrowsing.google.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,safebrowsing-cache.google.com
 
-  # > 关键词补充
+  # ===========================================================================
+  # 21. 开发者生态 (Flutter / Dart / Go / TensorFlow / Android Dev)
+  # ===========================================================================
+  - DOMAIN-SUFFIX,flutter.dev
+  - DOMAIN-SUFFIX,flutter.io
+  - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,dartlang.org
+  - DOMAIN-SUFFIX,pub.dev                # Dart/Flutter 包索引
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,go.dev
+  - DOMAIN-SUFFIX,pkg.go.dev
+  - DOMAIN-SUFFIX,sum.golang.org
+  - DOMAIN-SUFFIX,proxy.golang.org
+  - DOMAIN-SUFFIX,tensorflow.org
+  - DOMAIN-SUFFIX,tensorflow.google
+  - DOMAIN-SUFFIX,download.tensorflow.google.com
+  - DOMAIN-SUFFIX,tfhub.dev
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,developer.android.com
+  - DOMAIN-SUFFIX,android-developers.googleblog.com
+  - DOMAIN-SUFFIX,developers.google.com
+  - DOMAIN-SUFFIX,googledevjp.blogspot.com
+  - DOMAIN-SUFFIX,opensource.google
+  - DOMAIN-SUFFIX,opensource.googleblog.com
+  - DOMAIN-SUFFIX,bazel.build
+  - DOMAIN-SUFFIX,protobuf.dev
+  - DOMAIN-SUFFIX,grpc.io
+
+  # ===========================================================================
+  # 22. Alphabet 子公司 (Waymo / Verily / Wing / Nest / Fitbit / Mandiant /
+  #     Looker / Tink / Tilt Brush)
+  # ===========================================================================
+  - DOMAIN-SUFFIX,waymo.com
+  - DOMAIN-SUFFIX,verily.com
+  - DOMAIN-SUFFIX,verilylifesciences.com
+  - DOMAIN-SUFFIX,wing.com
+  - DOMAIN-SUFFIX,nest.com
+  - DOMAIN-SUFFIX,nestlabs.com
+  - DOMAIN-SUFFIX,fitbit.com
+  - DOMAIN-SUFFIX,mandiant.com
+  - DOMAIN-SUFFIX,looker.com
+  - DOMAIN-SUFFIX,tink.com
+  - DOMAIN-SUFFIX,tiltbrush.com
+  - DOMAIN-SUFFIX,wing.google
+  - DOMAIN-SUFFIX,intrinsic.ai          # Alphabet 工业机器人子公司
+  - DOMAIN-SUFFIX,calicolabs.com        # Alphabet 生命科学子公司
+  - DOMAIN-SUFFIX,sandboxaq.com         # Alphabet 拆分出的量子安全子公司
+
+  # ===========================================================================
+  # 23. Google 通信类 (Voice / Fi / Hangouts / Duo / Allo legacy)
+  # ===========================================================================
+  - DOMAIN-SUFFIX,voice.google.com
+  - DOMAIN-SUFFIX,voice.google
+  - DOMAIN-SUFFIX,fi.google.com
+  - DOMAIN-SUFFIX,duo.google.com
+  - DOMAIN-SUFFIX,hangouts.google.com
+  - DOMAIN-SUFFIX,talkgadget.google.com
+  - DOMAIN-SUFFIX,fonts.gstatic.com
+
+  # ===========================================================================
+  # 24. Google Public DNS / DoH / DoT
+  # ===========================================================================
+  - DOMAIN,dns.google
+  - DOMAIN,dns.google.com
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN,doh.dns.google
+  - IP-CIDR,8.8.8.8/32,no-resolve
+  - IP-CIDR,8.8.4.4/32,no-resolve
+  - IP-CIDR6,2001:4860:4860::8888/128,no-resolve
+  - IP-CIDR6,2001:4860:4860::8844/128,no-resolve
+
+  # ===========================================================================
+  # 25. PKI / 证书 / 设备认证 / FIDO
+  # ===========================================================================
+  - DOMAIN-SUFFIX,pki.goog
+  - DOMAIN-SUFFIX,c.pki.goog
+  - DOMAIN-SUFFIX,crl.pki.goog
+  - DOMAIN-SUFFIX,ocsp.pki.goog
+  - DOMAIN-SUFFIX,pki-goog.l.google.com
+  - DOMAIN-SUFFIX,fidoalliance.google.com
+  - DOMAIN-SUFFIX,cryptauthenrollment.googleapis.com
+  - DOMAIN-SUFFIX,deviceintegritytokens.googleapis.com
+  - DOMAIN-SUFFIX,attestation.android.com
+
+  # ===========================================================================
+  # 26. CDN / 重定向 / 边缘节点 / 设备遥测
+  # ===========================================================================
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,redirector.gvt1.com
+  - DOMAIN-SUFFIX,redirector.gcpcdn.gvt1.com
+  - DOMAIN-SUFFIX,redirector.snap.gvt1.com
+  - DOMAIN-SUFFIX,redirector.offline-maps.gvt1.com
+  - DOMAIN-SUFFIX,redirector.c.chat.google.com
+  - DOMAIN-SUFFIX,redirector.c.mail.google.com
+  - DOMAIN-SUFFIX,redirector.c.pack.google.com
+  - DOMAIN-SUFFIX,redirector.c.play.google.com
+  - DOMAIN-SUFFIX,redirector.c.youtubeeducation.com
+  - DOMAIN-SUFFIX,redirector.bdn.dev
+  - DOMAIN-SUFFIX,redirector.xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,beacons.gcp.gvt2.com
+  - DOMAIN-SUFFIX,beacons.gvt2.com
+  - DOMAIN-SUFFIX,beacons2.gvt2.com
+  - DOMAIN-SUFFIX,beacons3.gvt2.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,connectivitycheck.android.com
+  - DOMAIN-SUFFIX,clients.l.google.com
+  - DOMAIN-SUFFIX,clientservices.googleapis.com
+  - DOMAIN-SUFFIX,checkin.gstatic.com
+  - DOMAIN-SUFFIX,csi.gstatic.com
+  - DOMAIN-SUFFIX,ssl.gstatic.com
+  - DOMAIN-SUFFIX,www.gstatic.com
+  - DOMAIN-SUFFIX,g0.gstatic.com
+  - DOMAIN-SUFFIX,g1.gstatic.com
+  - DOMAIN-SUFFIX,g2.gstatic.com
+  - DOMAIN-SUFFIX,g3.gstatic.com
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,dl.l.google.com
+  - DOMAIN-SUFFIX,download.mlcc.google.com
+  - DOMAIN-SUFFIX,cache.pack.google.com
+  - DOMAIN-SUFFIX,cache-management-prod.google.com
+  - DOMAIN-SUFFIX,update.googleapis.com
+  - DOMAIN-SUFFIX,update.crashlytics.com
+  - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
+  - DOMAIN-SUFFIX,firebase-settings.crashlytics.com
+  - DOMAIN-SUFFIX,performanceparameters.googleapis.com
+  - DOMAIN-SUFFIX,tools.google.com
+  - DOMAIN-SUFFIX,tac.googleapis.com
+  - DOMAIN-SUFFIX,service.urchin.com
+  - DOMAIN-SUFFIX,cn.widevine.com
+  - DOMAIN-SUFFIX,widevine.com
+  - DOMAIN-SUFFIX,license.widevine.com
+
+  # ===========================================================================
+  # 27. 用于 GA / GTM / DoubleClick 的 l.google.com 内部节点
+  # ===========================================================================
+  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+  - DOMAIN-SUFFIX,www-google-analytics.l.google.com
+  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+  - DOMAIN-SUFFIX,pagead-googlehosted.l.google.com
+  - DOMAIN-SUFFIX,gstaticadssl.l.google.com
+
+  # ===========================================================================
+  # 28. Floonet / 内部环境 (Google 内部预发布/开发环境)
+  # ===========================================================================
+  - DOMAIN-SUFFIX,prod-controlbe.floonet.goog
+  - DOMAIN-SUFFIX,prod-databe.floonet.goog
+  - DOMAIN-SUFFIX,prod.databe.floonet.goog
+  - DOMAIN-SUFFIX,staging-controlbe.floonet.goog
+  - DOMAIN-SUFFIX,staging-databe.floonet.goog
+  - DOMAIN-SUFFIX,staging.databe.floonet.goog
+
+  # ===========================================================================
+  # 29. 历史/旁支 (gonglchuangl / gongyichuangyi / qiao 等)
+  # ===========================================================================
+  - DOMAIN-SUFFIX,gonglchuangl.net
+  - DOMAIN-SUFFIX,gongyichuangyi.net
+  - DOMAIN-SUFFIX,qiao-cn.com
+  - DOMAIN-SUFFIX,www.destinationurl.com
+  - DOMAIN-SUFFIX,www.pxcc.com
+  - DOMAIN-SUFFIX,apps5.oingo.com
+  - DOMAIN-SUFFIX,gtm.oasisfeng.com
+  - DOMAIN-SUFFIX,avail.googleflights.net
+  - DOMAIN-SUFFIX,qpx.googleflights.net
+  - DOMAIN-SUFFIX,dg-meta.video.google.com
+
+  # ===========================================================================
+  # 30. 关键词兜底 (谨慎使用; 任何包含字符串的域名都会命中)
+  # ===========================================================================
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,googleapis
   - DOMAIN-KEYWORD,gstatic
@@ -293,4 +588,32 @@ payload:
   - DOMAIN-KEYWORD,aistudio
   - DOMAIN-KEYWORD,makersuite
   - DOMAIN-KEYWORD,notebooklm
-  
+  - DOMAIN-KEYWORD,deepmind
+  - DOMAIN-KEYWORD,android
+  - DOMAIN-KEYWORD,chromium
+  - DOMAIN-KEYWORD,flutter
+  - DOMAIN-KEYWORD,firebase
+
+# =============================================================================
+# 使用说明 (rule-providers 引用示例)
+# -----------------------------------------------------------------------------
+# rule-providers:
+#   google:
+#     type: file              # 或 http
+#     behavior: classical
+#     path: ./rules/google_full.yaml
+#     interval: 86400
+#
+# rules:
+#   - RULE-SET,google,Google                  # 策略组名按自身规划
+#
+# 注意事项:
+#   1. 此规则集包含 IP-CIDR 项 (Google Public DNS), 必须使用 classical 行为,
+#      不可用 domain / ipcidr 单一行为
+#   2. 若同时启用 fake-ip, 建议将 dns.google 加入 fake-ip-filter
+#   3. 30 节关键词规则会与部分 *.cn / 大陆 CDN 域冲突 (例如 googleapis-cn.com
+#      已显式列出, 但 keyword:google 会再次命中), 建议在主路由中将国内域名
+#      规则集放在本规则集之前, 形成 "白名单先行" 顺序
+#   4. blogger / blogspot 多 TLD 段已收录主流, 如需巴西/俄罗斯/欧洲全量,
+#      可自行追加 (语义等价, 此处避免膨胀)
+# =============================================================================
