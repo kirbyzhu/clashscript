@@ -145,3 +145,152 @@ payload:
   - DOMAIN-KEYWORD,colab
   - DOMAIN-KEYWORD,developerprofiles
   - DOMAIN-KEYWORD,generativelanguage
+
+  # ================================
+  # Google / YouTube / AI 规则补充
+  # ================================
+
+  # > Google 基础与短链接
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,1e100.net
+  - DOMAIN-SUFFIX,googlehosted.com
+  - DOMAIN-SUFFIX,googledomains.com
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,about.google
+  - DOMAIN-SUFFIX,blog.google
+
+  # > Google 账号 / 登录 / 安全相关
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,oauth2.googleapis.com
+  - DOMAIN-SUFFIX,securetoken.googleapis.com
+  - DOMAIN-SUFFIX,identitytoolkit.googleapis.com
+  - DOMAIN-SUFFIX,signin.aws.google.com
+
+  # > Google Play / Android / 下载更新
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,androidify.com
+  - DOMAIN-SUFFIX,androidifyresources.com
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,play-fe.googleapis.com
+  - DOMAIN-SUFFIX,play-lh.googleusercontent.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+
+  # > Chrome / Chromium / Web 开发生态
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromestatus.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,web.dev
+  - DOMAIN-SUFFIX,webpkgcache.com
+  - DOMAIN-SUFFIX,pagespeed.web.dev
+
+  # > YouTube 核心
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,yt3.ggpht.com
+
+  # > Firebase / Google App Engine / Cloud 生态
+  - DOMAIN-SUFFIX,firebaseapp.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com
+  - DOMAIN-SUFFIX,appspot.com
+  - DOMAIN-SUFFIX,appspot-preview.com
+  - DOMAIN-SUFFIX,cloudfunctions.net
+  - DOMAIN-SUFFIX,cloudproxy.app
+  - DOMAIN-SUFFIX,cloud.google.com
+  - DOMAIN-SUFFIX,console.cloud.google.com
+  - DOMAIN-SUFFIX,storage.googleapis.com
+  - DOMAIN-SUFFIX,storage.cloud.google.com
+
+  # > Google AI / Gemini / AI Studio / Labs / Colab / NotebookLM
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,colab.research.google.com
+  - DOMAIN-SUFFIX,research.google
+  - DOMAIN-SUFFIX,ai.google
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,pa.googleapis.com
+  - DOMAIN-SUFFIX,clients6.google.com
+
+  # > Google Docs / Drive / Gmail / Meet / Chat / Calendar
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,forms.google.com
+  - DOMAIN-SUFFIX,sheets.google.com
+  - DOMAIN-SUFFIX,slides.google.com
+  - DOMAIN-SUFFIX,mail.google.com
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,meet.google.com
+  - DOMAIN-SUFFIX,chat.google.com
+  - DOMAIN-SUFFIX,calendar.google.com
+  - DOMAIN-SUFFIX,contacts.google.com
+  - DOMAIN-SUFFIX,keep.google.com
+  - DOMAIN-SUFFIX,tasks.google.com
+
+  # > Google Maps / Earth / Travel
+  - DOMAIN-SUFFIX,maps.google.com
+  - DOMAIN-SUFFIX,maps.googleapis.com
+  - DOMAIN-SUFFIX,earth.google.com
+  - DOMAIN-SUFFIX,googleearth.com
+  - DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
+
+  # > Google 静态资源 / 图片 / 字体 / 头像
+  - DOMAIN-SUFFIX,lh3.googleusercontent.com
+  - DOMAIN-SUFFIX,lh4.googleusercontent.com
+  - DOMAIN-SUFFIX,lh5.googleusercontent.com
+  - DOMAIN-SUFFIX,lh6.googleusercontent.com
+  - DOMAIN-SUFFIX,photos.google.com
+  - DOMAIN-SUFFIX,photos.googleapis.com
+  - DOMAIN-SUFFIX,photoslibrary.googleapis.com
+
+  # > Blogger / Blogspot
+  - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,blogspot.com
+  - DOMAIN-SUFFIX,blogspot.hk
+  - DOMAIN-SUFFIX,blogspot.jp
+  - DOMAIN-SUFFIX,blogspot.tw
+  - DOMAIN-SUFFIX,blogspot.sg
+  - DOMAIN-SUFFIX,blogspot.com.au
+  - DOMAIN-SUFFIX,blogspot.com.br
+  - DOMAIN-SUFFIX,blogspot.co.uk
+
+  # > Google 翻译
+  - DOMAIN-SUFFIX,translate.google.com
+  - DOMAIN-SUFFIX,translate.googleapis.com
+  - DOMAIN-SUFFIX,translate-pa.googleapis.com
+  - DOMAIN-SUFFIX,translate.googleapis-cn.com
+
+  # > Google Bard / Gemini 历史兼容
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,bard.google
+  - DOMAIN-SUFFIX,gemini.google
+  - DOMAIN-SUFFIX,generativeai.google
+
+  # > 关键词补充
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,googleapis
+  - DOMAIN-KEYWORD,gstatic
+  - DOMAIN-KEYWORD,googleusercontent
+  - DOMAIN-KEYWORD,googlevideo
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,ytimg
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,aistudio
+  - DOMAIN-KEYWORD,makersuite
+  - DOMAIN-KEYWORD,notebooklm
+  
