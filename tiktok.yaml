@@ -42,6 +42,25 @@ payload:
   - DOMAIN-SUFFIX,worldfcdn.com
   - DOMAIN-SUFFIX,wsdvs.com
 
+  # > 字节跳动企业根域 / SDK 心跳 / 埋点
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,byteeffecttos-g.com
+  - DOMAIN-SUFFIX,pitaya-clientai.com
+
+  # > CapCut (剪映海外版)
+  - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,capcutapi.com
+  - DOMAIN-SUFFIX,capcuthub.com
+
+  # > 其他海外 APP (Lemon8 / Helo / Vigo / TikTok Shop)
+  - DOMAIN-SUFFIX,lemon8-app.com
+  - DOMAIN-SUFFIX,helo-app.com
+  - DOMAIN-SUFFIX,vigovideo.net
+  - DOMAIN-SUFFIX,tiktokshop.com
+  - DOMAIN-SUFFIX,tiktokshopcdn.com
+  - DOMAIN-SUFFIX,tiktokshopcdn-us.com
+
   # > TikTok 常见精确域名 / CDN
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -52,4 +71,6 @@ payload:
   - DOMAIN-KEYWORD,tiktokcdn
   - DOMAIN-KEYWORD,tiktokv
   - DOMAIN-KEYWORD,byteoversea
+  - DOMAIN-KEYWORD,bytedance
+  - DOMAIN-KEYWORD,capcut
   - DOMAIN-KEYWORD,musical.ly
