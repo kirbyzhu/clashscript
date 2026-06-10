@@ -1,0 +1,9 @@
+# 用户自定义 REJECT 拦截规则
+# 与 Loyalsoldier ls-reject 并列, 存放个人/环境特定的拦截需求
+# 格式: classical (Clash 规则原生类型, 与 ls-reject 的 domain 格式不同)
+
+# 国内银行业 - 工行手机银行被劫持的恶意域名
+DOMAIN,msmp.abchina.com.cn
+
+# YouTube 数据上报 (该子域无业务用途, 仅用于追踪)
+DOMAIN-SUFFIX,ehg-youtube.hitbox.com
