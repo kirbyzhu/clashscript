@@ -66,6 +66,17 @@ payload:
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
   - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 
+  # > ls-direct 收录的字节跳动关联域 (确保在 ls-direct 之前命中)
+  - DOMAIN-SUFFIX,ctobsnssdk.com
+  - DOMAIN-SUFFIX,tobsnssdk.com
+  - DOMAIN-SUFFIX,searchpstatp.com
+  - DOMAIN-SUFFIX,bytedance.org
+  - DOMAIN-SUFFIX,bytedanceapi.com
+  - DOMAIN-SUFFIX,bytedancevod.com
+  - DOMAIN-SUFFIX,bytedanceoss.net
+  - DOMAIN-SUFFIX,tiktokrow-cdn.com
+  - DOMAIN-SUFFIX,tiktoknewaccount.com
+
   # > 兜底关键词
   - DOMAIN-KEYWORD,tiktok
   - DOMAIN-KEYWORD,tiktokcdn
