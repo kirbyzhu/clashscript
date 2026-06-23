@@ -1,84 +1,152 @@
-# == 常用国际支付平台 ==
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-KEYWORD,paypal
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,payoneer.com
-DOMAIN-SUFFIX,squareup.com
+payload:
+  # ==========================================================
+  # 美国运通 (American Express) 完整资产
+  # ==========================================================
+  - DOMAIN-SUFFIX,americanexpress.com
+  - DOMAIN-SUFFIX,aexp.com
+  - DOMAIN-SUFFIX,aexp-static.com
+  - DOMAIN-SUFFIX,americanexpressbusiness.com
+  - DOMAIN-SUFFIX,amex.us
+  - DOMAIN-SUFFIX,amex.com
+  - DOMAIN,americanexpress
+  - DOMAIN,amex
+  - IP-CIDR,12.10.219.0/24,no-resolve
+  - IP-CIDR,12.29.100.0/23,no-resolve
+  - IP-CIDR,12.29.102.0/24,no-resolve
+  - IP-CIDR,12.105.185.0/24,no-resolve
+  - IP-CIDR,139.71.0.0/16,no-resolve
+  - IP-CIDR,148.172.0.0/16,no-resolve
+  - IP-CIDR,148.173.0.0/16,no-resolve
 
-# == 国际汇款与新兴数字银行 ==
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,revolut.com
-DOMAIN-SUFFIX,monzo.com
-DOMAIN-SUFFIX,n26.com
-DOMAIN-SUFFIX,curve.com
+  # ==========================================================
+  # 摩根大通 (Chase / J.P. Morgan) 完整资产
+  # ==========================================================
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,chasecdn.com
+  - DOMAIN-SUFFIX,jpmorgan.com
+  - DOMAIN-SUFFIX,jpmorganchase.com
+  - DOMAIN-SUFFIX,chaseonlinesecure.com
+  - IP-CIDR,159.53.0.0/16,no-resolve
+  - IP-CIDR,170.146.0.0/15,no-resolve
+  - IP-CIDR,192.148.243.0/24,no-resolve
+  - IP-CIDR,198.81.128.0/19,no-resolve
+  - IP-CIDR,204.94.192.0/20,no-resolve
 
-# == 传统跨国银行 (北美、欧洲等) ==
-DOMAIN-SUFFIX,citi.com
-DOMAIN-SUFFIX,citibank.com
-DOMAIN-SUFFIX,chase.com
-DOMAIN-SUFFIX,bankofamerica.com
-DOMAIN-SUFFIX,bofa.com
-DOMAIN-SUFFIX,wellsfargo.com
-DOMAIN-SUFFIX,capitalone.com
-DOMAIN-SUFFIX,hsbc.com
-DOMAIN-SUFFIX,hsbc.co.uk
-DOMAIN-SUFFIX,barclays.com
-DOMAIN-SUFFIX,barclays.co.uk
-DOMAIN-SUFFIX,standardchartered.com
+  # ==========================================================
+  # 第一资本 (Capital One) 完整资产
+  # ==========================================================
+  - DOMAIN-SUFFIX,capitalone.com
+  - DOMAIN-SUFFIX,capitalone360.com
+  - DOMAIN-SUFFIX,capone.com
+  - DOMAIN-SUFFIX,capitalone.ca
+  - DOMAIN-SUFFIX,capitalone.co.uk
+  - IP-CIDR,146.244.0.0/16,no-resolve
+  - IP-CIDR,162.218.144.0/22,no-resolve
+  - IP-CIDR,192.93.125.0/24,no-resolve
+  - IP-CIDR,198.63.192.0/22,no-resolve
 
-# == 信用卡发卡机构与网络 ==
-DOMAIN-SUFFIX,americanexpress.com
-DOMAIN-SUFFIX,amex.com
-DOMAIN-SUFFIX,aexp.com
-DOMAIN-SUFFIX,discover.com
-DOMAIN-SUFFIX,discovercard.com
-DOMAIN-SUFFIX,visa.com
-DOMAIN-SUFFIX,mastercard.com
-DOMAIN-SUFFIX,mastercard.us
-DOMAIN-SUFFIX,dinersclub.com
+  # ==========================================================
+  # 美国银行 (Bank of America / BofA) 完整资产
+  # ==========================================================
+  - DOMAIN-SUFFIX,bankofamerica.com
+  - DOMAIN-SUFFIX,bofa.com
+  - DOMAIN-SUFFIX,bac-assets.com
+  - DOMAIN-SUFFIX,bofaml.com
+  - DOMAIN-SUFFIX,merrilledge.com
+  - DOMAIN-SUFFIX,merrilllynch.com
+  - IP-CIDR,12.18.232.0/24,no-resolve
+  - IP-CIDR,12.23.56.0/24,no-resolve
+  - IP-CIDR,12.161.4.0/22,no-resolve
+  - IP-CIDR,12.161.8.0/23,no-resolve
+  - IP-CIDR,12.161.10.0/24,no-resolve
+  - IP-CIDR,159.14.0.0/16,no-resolve
+  - IP-CIDR,169.135.0.0/16,no-resolve
+  - IP-CIDR,171.159.0.0/16,no-resolve
+  - IP-CIDR,171.161.0.0/16,no-resolve
+  - IP-CIDR,192.35.34.0/24,no-resolve
+  - IP-CIDR,198.234.34.0/24,no-resolve
 
-# == 信用记录与征信机构 ==
-# 北美三大征信局
-DOMAIN-SUFFIX,equifax.com
-DOMAIN-SUFFIX,experian.com
-DOMAIN-SUFFIX,transunion.com
-# 常用信用分查询平台
-DOMAIN-SUFFIX,creditkarma.com
-DOMAIN-SUFFIX,myfico.com
-DOMAIN-SUFFIX,fico.com
-DOMAIN-SUFFIX,annualcreditreport.com
-DOMAIN-SUFFIX,clearscore.com
-DOMAIN-SUFFIX,creditchecktotal.com
+  # ==========================================================
+  # PayPal 完整资产
+  # ==========================================================
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,paypal-corp.com
+  - DOMAIN-SUFFIX,paypal-crypto.com
+  - DOMAIN-SUFFIX,venmo.com
+  - DOMAIN-KEYWORD,paypal
+  - IP-CIDR,23.235.32.0/20,no-resolve
+  - IP-CIDR,64.4.240.0/20,no-resolve
+  - IP-CIDR,66.211.160.0/19,no-resolve
+  - IP-CIDR,96.47.32.0/19,no-resolve
+  - IP-CIDR,173.0.80.0/20,no-resolve
+  - IP-CIDR,185.177.100.0/22,no-resolve
 
-# == 国际券商与投资理财 ==
-DOMAIN-SUFFIX,schwab.com
-DOMAIN-SUFFIX,fidelity.com
-DOMAIN-SUFFIX,tdameritrade.com
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,interactivebrokers.com
+  # ==========================================================
+  # 常用国际支付平台、跨国银行与新兴数字银行
+  # ==========================================================
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,payoneer.com
+  - DOMAIN-SUFFIX,squareup.com
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,transferwise.com
+  - DOMAIN-SUFFIX,revolut.com
+  - DOMAIN-SUFFIX,monzo.com
+  - DOMAIN-SUFFIX,n26.com
+  - DOMAIN-SUFFIX,curve.com
+  - DOMAIN-SUFFIX,citi.com
+  - DOMAIN-SUFFIX,citibank.com
+  - DOMAIN-SUFFIX,wellsfargo.com
+  - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,hsbc.co.uk
+  - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,barclays.co.uk
+  - DOMAIN-SUFFIX,standardchartered.com
 
-# == Intuit 及其旗下产品 (财务、税务、记账) ==
-DOMAIN-SUFFIX,intuit.com
-DOMAIN-SUFFIX,intuitcdn.net
-DOMAIN-SUFFIX,intuitecom.com
-DOMAIN-SUFFIX,turbotax.com
-DOMAIN-SUFFIX,quickbooks.com
-DOMAIN-SUFFIX,mint.com
-DOMAIN-KEYWORD,intuit
+  # ==========================================================
+  # 信用卡发卡机构网络与征信机构
+  # ==========================================================
+  - DOMAIN-SUFFIX,discover.com
+  - DOMAIN-SUFFIX,discovercard.com
+  - DOMAIN-SUFFIX,visa.com
+  - DOMAIN-SUFFIX,mastercard.com
+  - DOMAIN-SUFFIX,mastercard.us
+  - DOMAIN-SUFFIX,dinersclub.com
+  - DOMAIN-SUFFIX,equifax.com
+  - DOMAIN-SUFFIX,experian.com
+  - DOMAIN-SUFFIX,transunion.com
+  - DOMAIN-SUFFIX,creditkarma.com
+  - DOMAIN-SUFFIX,myfico.com
+  - DOMAIN-SUFFIX,fico.com
+  - DOMAIN-SUFFIX,annualcreditreport.com
+  - DOMAIN-SUFFIX,clearscore.com
+  - DOMAIN-SUFFIX,creditchecktotal.com
 
-# == 加密货币交易所 (按需开启) ==
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,coinbase.com
-DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,okx.com
+  # ==========================================================
+  # 国际券商与财务税务工具 (Intuit)
+  # ==========================================================
+  - DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,fidelity.com
+  - DOMAIN-SUFFIX,tdameritrade.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,intuit.com
+  - DOMAIN-SUFFIX,intuitcdn.net
+  - DOMAIN-SUFFIX,intuitecom.com
+  - DOMAIN-SUFFIX,turbotax.com
+  - DOMAIN-SUFFIX,quickbooks.com
+  - DOMAIN-SUFFIX,mint.com
+  - DOMAIN-KEYWORD,intuit
 
-# == 其他金融工具与通讯 ==
-# Priority Pass (PP卡) 相关
-DOMAIN,combine.urbanairship.com
-DOMAIN,api.te-collinson.com
-# 通讯服务
-DOMAIN-SUFFIX,textnow.com
+  # ==========================================================
+  # 加密货币交易所与第三方工具
+  # ==========================================================
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,coinbase.com
+  - DOMAIN-SUFFIX,kraken.com
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN,combine.urbanairship.com
+  - DOMAIN,api.te-collinson.com
+  - DOMAIN-SUFFIX,textnow.com
