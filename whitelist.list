@@ -1,7 +1,24 @@
+# =============================================================================
+# whitelist.list  —— 强制直连补丁表 (RULE-SET,whitelist,DIRECT)
+# 源仓库   : github.com/kirbyzhu/clashscript
+# 引用位置 : script.js buildRules() 第 6 段, 优先级高于第 8 段所有国际服务规则
+# 语义     : 本表内任一域名一律强制直连, 会压过 GoogleFull/AiFull/Finance 等代理意图,
+#            故只放"确需直连且可能被国际规则误抓"的域名. 表内条目顺序不影响匹配.
+# -----------------------------------------------------------------------------
+# 变更记录 (倒序)
+#   2026-06-29 审核优化
+#     - 删除 api.appcenter.ms (微软 App Center 据官方公告 2025-03-31 退役, 域名失效)
+#     - DOMAIN-KEYWORD,ultramobile → DOMAIN-SUFFIX,ultramobile.com
+#       (keyword 子串匹配过宽且每连接扫描, 收敛为 suffix, 并与 fake-ip-filter
+#        的 +.ultramobile.com 对齐)
+#     - 新增"境外运营商门户"分段, 归集 taiwanmobile.com / ultramobile.com,
+#       与国内直连语义分离, 便于审计
+# =============================================================================
+
 # == 苹果服务 (Apple) ==
 # Apple CDN 加速
 DOMAIN-SUFFIX,cdn-apple.com
-# 苹果网络检测
+# 苹果网络检测 (captive portal 探测须直连, 勿移除)
 DOMAIN,captive.apple.com
 
 # == 腾讯系 (微信 / QQ / 腾讯地图) ==
@@ -45,7 +62,7 @@ DOMAIN,gm.mmstat.com
 DOMAIN,d-gm.mmstat.com
 DOMAIN,log.mmstat.com
 DOMAIN,wgo.mmstat.com
-# 阿里妈妈广告联盟 (Tanx)
+# 阿里妈妈广告联盟 (Tanx) —— 故意放行, 保电商 App 正常 (绕过广告拦截)
 DOMAIN,df.tanx.com
 DOMAIN,ifs.tanx.com
 
@@ -70,7 +87,7 @@ DOMAIN,grpc.biliapi.net
 # 瑞幸咖啡
 DOMAIN,capi.lkcoffee.com
 
-# == 银行与金融机构 ==
+# == 银行与金融机构 (须直连, 勿走代理避免风控; 本段先于 Finance,lisa 生效, 勿调序) ==
 # 中国银联 (云闪付)
 DOMAIN-SUFFIX,95516.com
 # 中国银行
@@ -79,13 +96,12 @@ DOMAIN,mbs.boc.cn
 # 交通银行
 DOMAIN,creditcardapp.bankcomm.cn
 
-# == 系统基础服务 (网络检测 / NTP 时间 / 证书) ==
+# == 系统基础服务 (网络检测 / NTP 时间 / 证书 OCSP, 全球性探测, 直连最快) ==
 # 微软服务 & 时间
-DOMAIN,api.appcenter.ms
 DOMAIN,client.wns.windows.com
 DOMAIN,time.windows.com
 DOMAIN,ntp.msn.com
-# 证书验证
+# 证书验证 OCSP (o.pki.goog 为 Google PKI, 属证书校验而非 Google 业务, 故意直连快校验)
 DOMAIN,ocsp2.globalsign.com
 DOMAIN,o.pki.goog
 # 火狐网络检测
@@ -93,10 +109,11 @@ DOMAIN,detectportal.firefox.com
 # 开源 NTP 时间服务器
 DOMAIN-SUFFIX,pool.ntp.org
 
-# == 运营商与教育网 ==
-# 中国教育网
+# == 教育网 (中国) ==
 DOMAIN-SUFFIX,edu.cn
+
+# == 境外运营商门户 (按个人 SIM 用途强制直连; 大陆直连可达性需自行确认) ==
 # 台湾大哥大
 DOMAIN-SUFFIX,taiwanmobile.com
-# Ultra Mobile (PayGo)
-DOMAIN-KEYWORD,ultramobile
+# Ultra Mobile (US PayGo eSIM)
+DOMAIN-SUFFIX,ultramobile.com
