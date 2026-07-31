@@ -1,0 +1,46 @@
+; Apple services direct routing for Quantumult X
+; Apple ID, App Store, iCloud, APNs, Apple CDN/CNAME and Apple-operated IP ranges.
+; Keep this remote resource enabled and forced to direct.
+
+; Apple official services and storefronts
+HOST-SUFFIX,apple.com,direct
+HOST-SUFFIX,apple.com.cn,direct
+HOST-SUFFIX,apple.cn,direct
+HOST-SUFFIX,apple.co,direct
+HOST-SUFFIX,appstore.com,direct
+HOST-SUFFIX,appsto.re,direct
+HOST-SUFFIX,itunes.com,direct
+HOST-SUFFIX,mzstatic.com,direct
+HOST-SUFFIX,aaplimg.com,direct
+HOST-SUFFIX,cdn-apple.com,direct
+HOST-SUFFIX,apple-dns.net,direct
+HOST-SUFFIX,apple.news,direct
+HOST-SUFFIX,applemusic.com,direct
+HOST-SUFFIX,apple-cloudkit.com,direct
+HOST-SUFFIX,apple-mapkit.com,direct
+HOST-SUFFIX,me.com,direct
+HOST-SUFFIX,icloud.com,direct
+HOST-SUFFIX,icloud-content.com,direct
+HOST-SUFFIX,icloud.com.cn,direct
+HOST-SUFFIX,icloud.cn,direct
+
+; Apple CDN aliases
+HOST-SUFFIX,apple.com.akadns.net,direct
+HOST-SUFFIX,itunes-apple.com.akadns.net,direct
+HOST-SUFFIX,push-apple.com.akadns.net,direct
+HOST-SUFFIX,origin-apple.com.akadns.net,direct
+HOST-SUFFIX,ls-apple.com.akadns.net,direct
+HOST-SUFFIX,itunes.apple.com.edgesuite.net,direct
+HOST-SUFFIX,apple.com.edgekey.net,direct
+HOST-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net,direct
+
+; Apple-owned brands
+HOST-SUFFIX,shazam.com,direct
+HOST-SUFFIX,shazamid.com,direct
+HOST-SUFFIX,beats.com,direct
+
+; Apple-operated network ranges
+IP-CIDR,17.0.0.0/8,direct,no-resolve
+IP6-CIDR,2403:300::/32,direct,no-resolve
+IP6-CIDR,2620:149::/32,direct,no-resolve
+IP6-CIDR,2a01:b740::/32,direct,no-resolve
