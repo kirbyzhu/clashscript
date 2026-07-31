@@ -1,5 +1,0 @@
-# 关键字偏好: 走 lisa (US 住宅 IP) 代理
-# 这些域名虽然在 ls-proxy 兜底中走 AutoSwitch, 但用户希望明确走 lisa
-# 原因: 图床/论坛类对 IP 信誉敏感, lisa 是 US 住宅 IP 更稳定
-
-DOMAIN-KEYWORD,imgur

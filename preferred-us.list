@@ -1,0 +1,4 @@
+# 国际站点固定使用美区泛用池
+# 这些域名虽然会被 ls-proxy 兜底捕获，但固定到 usLanding 可避免漂移到其他地区。
+
+DOMAIN-KEYWORD,imgur

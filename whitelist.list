@@ -87,7 +87,7 @@ DOMAIN,grpc.biliapi.net
 # 瑞幸咖啡
 DOMAIN,capi.lkcoffee.com
 
-# == 银行与金融机构 (须直连, 勿走代理避免风控; 本段先于 Finance,lisa 生效, 勿调序) ==
+# == 银行与金融机构 (须直连, 勿走代理避免风控; 本段先于 Finance,usLanding 生效, 勿调序) ==
 # 中国银联 (云闪付)
 DOMAIN-SUFFIX,95516.com
 # 中国银行
