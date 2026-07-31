@@ -1,0 +1,82 @@
+# =============================================================================
+# AppleDirect.list  —— Apple 全服务强制直连规则集
+# Format     Clash / Mihomo rule-provider
+# Behavior   classical
+# Source     github.com/kirbyzhu/clashscript
+# Version    2026.07.31
+# Purpose    所有 Apple 相关域名与 Apple 自有/归属网络一律 DIRECT
+# -----------------------------------------------------------------------------
+# 说明
+#   1. 域名规则覆盖 Apple 官方服务、App Store、iCloud、Apple ID、APNs、地图、
+#      软件更新、Apple CDN/CNAME、Apple Music / News / TV 等主要服务入口。
+#   2. IP 段采用 Apple 官方企业网络文档公布的 Apple-owned 范围。
+#   3. IP-ASN 依赖 Mihomo ASN 数据库；用于补足 Apple BGP 归属网络的动态匹配。
+#   4. 第三方 CDN 的最终 IP 不在 Apple 官方固定发布范围内，主要通过域名规则命中。
+# =============================================================================
+
+# ---------------------------------------------------------------------
+# 1. Apple 主域与服务域
+# ---------------------------------------------------------------------
+
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,me.com
+
+# ---------------------------------------------------------------------
+# 2. iCloud 与中国区 iCloud
+# ---------------------------------------------------------------------
+
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud.cn
+
+# ---------------------------------------------------------------------
+# 3. Apple CDN / Akamai CNAME 兜底
+# ---------------------------------------------------------------------
+
+DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,origin-apple.com.akadns.net
+DOMAIN-SUFFIX,ls-apple.com.akadns.net
+DOMAIN-SUFFIX,itunes.apple.com.edgesuite.net
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
+
+# ---------------------------------------------------------------------
+# 4. Apple 关联品牌与服务入口
+# ---------------------------------------------------------------------
+
+DOMAIN-SUFFIX,shazam.com
+DOMAIN-SUFFIX,shazamid.com
+DOMAIN-SUFFIX,beats.com
+
+# ---------------------------------------------------------------------
+# 5. Apple 官方公布的自有 IP 范围
+# ---------------------------------------------------------------------
+
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR6,2403:300::/32,no-resolve
+IP-CIDR6,2620:149::/32,no-resolve
+IP-CIDR6,2a01:b740::/32,no-resolve
+
+# ---------------------------------------------------------------------
+# 6. Apple ASN 兜底
+# ---------------------------------------------------------------------
+
+IP-ASN,714,no-resolve
+IP-ASN,6185,no-resolve
