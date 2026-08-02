@@ -1,0 +1,9 @@
+# 用户自定义放行例外 (ALLOW)
+# 与 user-rejects 对称: 存放被上游拦截名单 (category-ads-all / ls-reject) 误伤、
+# 但用户确需访问的域名. 由 Script 在广告/拦截规则之前引用, 策略走 usLanding.
+# 格式: classical (与 user-rejects 一致)
+
+# OpenAI 调研问卷 (Qualtrics 品牌子域) —— 被 geosite category-ads-all 误伤,
+# 命中 REJECT 致浏览器 ERR_CONNECTION_CLOSED / curl SSL_ERROR_SYSCALL.
+# 2026-08-02 放行, 经海外代理访问.
+DOMAIN,openai.qualtrics.com
