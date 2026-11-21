@@ -219,8 +219,6 @@ payload:
   - DOMAIN-SUFFIX,gstatic.com
 
 # > Microsoft Copilot / Bing AI / Azure AI
-  - DOMAIN,api.msn.com
-  - DOMAIN,assets.msn.com
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
@@ -235,10 +233,12 @@ payload:
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,microsoftapp.net
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,azure.com
-  - DOMAIN-SUFFIX,azurewebsites.net
-  - DOMAIN-SUFFIX,azure-api.net
+  - DOMAIN-SUFFIX,openai.azure.com
+  - DOMAIN-SUFFIX,cognitiveservices.azure.com
+  - DOMAIN-SUFFIX,services.ai.azure.com
+  - DOMAIN,ai.azure.com
+  - DOMAIN,ml.azure.com
+  - DOMAIN-SUFFIX,inference.ai.azure.com
 
 # > Meta AI / Llama
   - DOMAIN-SUFFIX,meta.ai
