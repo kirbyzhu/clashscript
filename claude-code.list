@@ -1,0 +1,64 @@
+# =============================================================================
+# claude-code.list  —— Claude Code / Anthropic 专用分流规则集
+# Format     Clash / Mihomo rule-provider (format: text)
+# Behavior   classical
+# Source     github.com/kirbyzhu/clashscript
+# Version    2026.11.21
+# Purpose    将 Claude Code 及 Anthropic 全链路独立分流至 dmit 美西出口
+# -----------------------------------------------------------------------------
+# 说明
+#   1. 在 Script buildRules() 中位于放行区之后、通用拦截(ls-reject /
+#      category-ads-all)之前引用，避免 statsig.anthropic.com 与专属上报端点
+#      被广告拦截名单短路拒绝。
+#   2. Anthropic / Claude 自有域名、CDN、IP 段与 ASN 全系统走 dmit，覆盖 CLI、
+#      浏览器 OAuth 登录、Chrome 扩展桥接与桌面端。
+#   3. 海外伴生依赖通过 AND + PROCESS-NAME,claude 限定进程匹配，不影响其他应用的
+#      广告拦截与国内直连。
+# =============================================================================
+
+# ---------------------------------------------------------------------
+# 1. Statsig 显式放行 (ls-reject 含 +.statsig.anthropic.com)
+# ---------------------------------------------------------------------
+DOMAIN,statsig.anthropic.com
+
+# ---------------------------------------------------------------------
+# 2. Anthropic / Claude 自有域名与 CDN
+# ---------------------------------------------------------------------
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,anthropic-com.ghost.io
+
+# ---------------------------------------------------------------------
+# 3. Anthropic 官方 IP 段与 ASN
+# ---------------------------------------------------------------------
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
+
+# ---------------------------------------------------------------------
+# 4. Claude Code 专属日志与错误上报端点
+# ---------------------------------------------------------------------
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN,o1158394.ingest.sentry.io
+
+# ---------------------------------------------------------------------
+# 5. claude 进程海外伴生依赖 (限定进程名，防误伤其他应用)
+# ---------------------------------------------------------------------
+AND,((PROCESS-NAME,claude),(DOMAIN,storage.googleapis.com))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,statsig.com))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,statsigapi.net))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,featuregates.org))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,sentry.io))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,datadoghq.com))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,npmjs.org))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,github.com))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,githubusercontent.com))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,cloudflare.com))
+AND,((PROCESS-NAME,claude),(DOMAIN-SUFFIX,auth0.com))
